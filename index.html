@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>視覺錯覺與心理效應</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>視覺錯覺網頁</title>
+   <header>
+    <h1>蛤!!是我的錯覺嗎??</h1>
+  </header>
+</head>
+<body onload="show()">
+
+  
+  <nav>
+    <a href ="#section1">  錯視是甚麼?  </a>
+    <a href ="#section2"> 為甚麼會這樣  </a>
+    <a href ="#section3"> visual exploration   </a>
+  </nav>
+  
+    <div id="eye">
+    <img id="ico" alt="輪播圖片">
+  </div>
+  
+  <main> 
+    <section id = :"section1">
+      <h2>錯視是甚麼?</h2>
+      <p>「錯視」別稱「視覺錯覺」是一種由於眼睛與大腦的感知差異所導致的現象，使我們看到的與真實物理現象有所偏差</p>
+    </section>
+    
+    <section id="section2">
+      <h2>為甚麼會這樣?</h2>
+      <ul>
+        <li><strong>大腦的認知偏差：</strong>圖片、影像透過眼睛觀看以後傳到大腦，大腦會嘗試依造正常時空下去做合理判斷分析，造就便欺騙大腦的現象</li>
+        <li><strong>眼睛的生理特性：</strong>主要來自人體視覺對於色彩視覺適應現象，視網膜受到某光感刺激而產生疲勞，離開該色後，一些細胞沒有活動所以我們會看到顏色，因此就有彩色的補色殘像	</li>
+     </ul>   
+    </section>
+    
+    <section id="section3">
+      <h2> visual exploration</h2>
+      <ul>
+        <li>
+          <strong>幾何錯覺：</strong>
+          視覺上的大小、長度、面積、方向、角度等幾何構成，和實際上測得的數字有明顯差別的錯覺</li>
+        <div  stytle=:"text-align: center;">
+          <img width=500 high=215 src="https://enews.tw/photo/1113939_0_600.jpeg" alt="幾何錯覺"></div>
+      <P id="q" color=#6eceda>比較左邊和右邊的橘色圓點，大小相同嗎?</P>
+<button onclick="answer()" color=#6eceda>戳我一下◝(⁰▿⁰)◜</button>
+        <li>
+          <strong>動態錯覺：</strong>一種讓靜態圖像看起來像在移動的視覺現象，通常利用視覺感知的錯誤來模擬出動態效果 
+        </li>
+        <div  stytle=:"text-align: center;">
+         <img width=500 high=215 src="https://shiruto.jp/wordpress/wp-content/uploads/2021/11/2112_illusion01-1000x630.jpg" alt="動態錯覺1"></div>
+<button id="btn">小提示，戳一下(ゝ∀･)</button>
+<p id="!!"></p>
+     <li>
+       <strong>顏色與亮度的錯覺:</strong>在觀察某些特定圖案或環境中的顏色時，所感知到的顏色與實際的顏色不同，這種錯覺是由於光線、背景對比、周圍色彩以及人眼和大腦的處理方式造成的
+     </li> 
+    <p>別急著滑走...思考一下A和B的顏色相同嗎?</p>
+<hi id="wait"></hi>
+        <div  stytle=:"text-align: center;">
+        <img width=500 high=300 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Checker_shadow_illusion.svg/1200px-Checker_shadow_illusion.svg.png" alt="顏色錯覺"></div>
+        <div  stytle=:"text-align: center;">
+        <img  width=500 high=300 src="https://upload.wikimedia.org/wikipedia/commons/2/21/Grey_square_optical_illusion_proof2.svg" alt="顏色錯覺解答"></div>
+        <li>
+          <strong>多義圖像：一種具有多重解讀可能的視覺圖像，它在設計上能夠誘導觀者的感知在不同的解釋之間切換</strong></li>
+      <div  stytle=:"text-align: center;">
+        <img width=476 height=600 src="https://i.pinimg.com/236x/80/7c/a7/807ca72d920e1f4a73ba7a8fd30863fd.jpg" alt="多義1"><P id="s">你看到了甚麼？</P>
+      <button onclick="see()">戳我一下◝(⁰▿⁰)◜</button></div>
+      <div  stytle=:"text-align: center;">
+      <img width=476 height=600 src="https://i.pinimg.com/550x/cb/df/79/cbdf790966fab9b155c7b54763432bbb.jpg" alt="多義2">
+       <P id="f">你看到了甚麼？</P>
+        <button onclick="what()">戳我一下◝(⁰▿⁰)◜</button></div>  
+   
+        </ul>
+      <p>個人報告到此結束~感謝瀏覽</p>
+    </section>
+  </main>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

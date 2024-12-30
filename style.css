@@ -1,0 +1,97 @@
+h1 {
+  position:relative;
+  top:30px;
+  background:white;
+  color:#E2B3AE;
+  text-align: center;
+  padding: 15px;
+ }
+
+/* 固定於頁面頂部的導航欄 */
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:	#A3B6C5;
+  text-align: right;
+  padding: 10px 0;
+  z-index:1000;
+ }
+
+nav a {
+  color:white;
+  font-size:15px;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: text-decoration 0.2s;
+}
+
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+#eye {
+  position: relative;
+  width: 1200px;             
+  height: 400px;            
+  margin: 30px auto;           
+  overflow: hidden;         
+}
+
+#ico {
+  width: 100%;              
+  height: 100%;             
+  object-fit: cover;        
+    }
+
+.content-image{
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+section{
+  position:relative;
+  background:#EACACB;
+  padding: 50px 30px;
+  border: 4px solid #A3B6C5;
+  margin: 10px auto;
+  max-width: 700px;
+  text-align: center;
+ }
+
+h2{
+  font-family: 'Georgia',serif;
+  color:black;
+  text-align: left;
+  font-size: 30px;
+   margin-bottom: 10px;
+}
+
+p{
+  margin-bottom:16px;
+  font-size: 20px;
+  color: #333;  
+}
+
+ul{
+  text-align: left;
+  text-indent: 2em;
+  line-height: 1.8; /* 增加行距 */
+  list-style-type: disc;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+
+body {
+ background:#E2B3AE;
+ font-family: 'Arial', sans-serif;
+ margin: 0;
+ padding: 0;
+ line-height: 1.5;
+}
